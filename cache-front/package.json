@@ -1,0 +1,25 @@
+{
+  "name": "redis-pubsub",
+  "version": "1.0.0",
+  "description": "redis 스터디",
+  "main": "main.js",
+  "scripts": {
+    "start": "DEBUG=* node main.js"
+  },
+  "keywords": [
+    "redis"
+  ],
+  "author": "Jungtae Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "debug": "^4.3.6",
+    "dotenv": "^16.4.5",
+    "redis": "^4.6.15"
+  }
+}
